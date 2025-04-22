@@ -1,0 +1,231 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Nusantara</title>
+
+     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+     <!-- Feather Icons -->
+      <script src="https://unpkg.com/feather-icons"></script>
+
+      <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+
+ <body>
+    <!-- Navigation Bar Awal -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo"><span>Dapur Nusantara</span></a>
+
+        <div class="navbar-nav" id="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="menu-bar"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search Form Start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here..">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form End -->
+
+        <!-- Shopping Cart Start -->
+         <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="img/menu/Ayam-Betutu.jpg" alt="Ayam Betutu">
+                <div class="item-detail">
+                    <h3>Ayam Betutu</h3>
+                    <div class="item-price">IDR 28.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/menu/Garang-Asem.jpg" alt="Garang Asem">
+                <div class="item-detail">
+                    <h3>Garang Asem</h3>
+                    <div class="item-price">IDR 26.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/menu/Rawon.jpg" alt="Rawon">
+                <div class="item-detail">
+                    <h3>Rawon</h3>
+                    <div class="item-price">IDR 30.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/menu/Mie-Aceh.jpg" alt="Mie Aceh">
+                <div class="item-detail">
+                    <h3>Mie Aceh</h3>
+                    <div class="item-price">IDR 20.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/menu/Rendang.jpg" alt="Rendang">
+                <div class="item-detail">
+                    <h3>Rendang</h3>
+                    <div class="item-price">IDR 31.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/menu/Soto-Betawi.jpg" alt="Soto Betawi">
+                <div class="item-detail">
+                    <h3>Soto Betawi</h3>
+                    <div class="item-price">IDR 23.000</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         </div>
+        <!-- Shopping Cart End -->
+
+     </nav>
+    <!-- Navigation Bar Akhir -->
+
+    <!-- Hero Section Start -->
+     <section class="hero" id="home">
+        <main class="content">
+           <h1>Nikmati Kelezatan Khas Nusantara</h1> 
+           <p>Temukan berbagai cita rasa dalam setiap suapan.</p>
+           <a href="#" class="cta">Pesan Sekarang</a>
+        </main>
+     </section>
+    <!-- Hero Section End -->
+
+    <!-- About Start -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="About Us">
+        </div>
+        <div class="content">
+            <h3>Kenapa memilih dapur kami?</h3>
+            <p>Dapur nusantara menyediakan banyak variasi makanan khas daerah yang ada di Indonesia. Dapur nusantara juga tetap mempertahankan cita rasa khas setiap makanan yang ada.</p>
+        </div>
+
+    </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+        <h2>Menu Kami</h2>
+        <p>Pilihan makanan dengan cita rasa yang khas dari tiap daerah di Indonesia</p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="img/menu/Garang-Asem.jpg" alt="Garang Asem" class="menu-card-img">
+                <h3 class="menu-card-title">Garang Asem</h3>
+                <p class="menu-card-price">IDR 26.000</p>
+            </div>
+            <div class="menu-card">
+                <span class="badge best-seller"><i class="fas fa-star"></i> Best Seller</span>
+                <img src="img/menu/Ayam-Betutu.jpg" alt="Ayam Betutu" class="menu-card-img">
+                <h3 class="menu-card-title">Ayam Betutu</h3>
+                <p class="menu-card-price">IDR 28.000</p>
+            </div>
+            <div class="menu-card">
+                <span class="badge best-seller"><i class="fas fa-star"></i> Best Seller</span>
+                <img src="img/menu/Rawon.jpg" alt="Rawon" class="menu-card-img">
+                <h3 class="menu-card-title">Rawon</h3>
+                <p class="menu-card-price">IDR 30.000</p>
+            </div>
+            <div class="menu-card">
+                <img src="img/menu/Mie-Aceh.jpg" alt="Mie Aceh" class="menu-card-img">
+                <h3 class="menu-card-title">Mie Aceh</h3>
+                <p class="menu-card-price">IDR 20.000</p>
+            </div>
+            <div class="menu-card">
+                <img src="img/menu/Soto-Betawi.jpg" alt="Soto Betawi" class="menu-card-img">
+                <h3 class="menu-card-title">Soto Betawi</h3>
+                <p class="menu-card-price">IDR 23.000</p>
+            </div>
+            <div class="menu-card">
+                <span class="badge best-seller"><i class="fas fa-star"></i> Best Seller</span>
+                <img src="img/menu/Rendang.jpg" alt="Rendang" class="menu-card-img">
+                <h3 class="menu-card-title">Rendang</h3>
+                <p class="menu-card-price">IDR 31.000</p>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="contact">
+        <h2>Kontak</h2>
+        <p>Kontak kami untuk mengetahui informasi lebih lanjut.</p>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8916267120157!2d107.00691527573201!3d-6.277976561455433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e09828fac07%3A0xe1042040322f123a!2sJl.%20Narogong%20Molek%20II%2C%20RT.001%2FRW.019%2C%20Pengasinan%2C%20Kec.%20Rawalumbu%2C%20Kota%20Bks%2C%20Jawa%20Barat%2017115!5e0!3m2!1sid!2sid!4v1745248599557!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form action="">
+                <div class="input group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="nomor handphone">
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+
+        </div>
+    </section>
+    
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+     <footer>
+        <div class="socials">
+            <a href="#"><i data data-feather="instagram"></i></a>
+            <a href="#"><i data data-feather="whatsapp"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by<a href="anadya-augustin">Anadya Augustin</a> |&copy; 2025</p>
+        </div>
+     </footer>
+    <!-- Footer End -->
+
+
+    <!-- Feather Icons -->
+     <script>
+      feather.replace();
+    </script>
+ 
+<!-- Javascript -->
+ <script src="js/script.js"></script>
+
+</body>
+ </html>
